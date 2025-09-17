@@ -1,0 +1,15 @@
+.app-sidebar {
+    background-color: oklch(0.21 0.034 264.665);
+}
+
+.app-main {
+    background-color: oklch(0.968 0.007 247.896);
+}
+
+.app-header {
+    background-color: oklch(0.278 0.033 256.848) !important;
+}
+
+.user-header {
+    background-color: oklch(0.869 0.022 252.894);
+}
