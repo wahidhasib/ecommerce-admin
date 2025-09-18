@@ -52,9 +52,15 @@
             </li>
             <!--end::User Image-->
             <!--begin::Menu Footer-->
-            <li class="user-footer">
-                <a href="#" class="btn btn-default btn-flat">Profile</a>
-                <a href="#" class="btn btn-default btn-flat float-end">Sign out</a>
+            <li class="user-footer d-flex">
+                <div class="">
+                    <a href="#" class="btn btn-default btn-flat">Profile</a>
+                </div>
+                <form action="{{ route('logout', Auth::id()) }}" method="POST" class="ms-auto">
+                    @csrf
+                    @method('DELETE')
+                    <button type="submit" class="btn btn-default btn-flat">Sign out</button>
+                </form>
             </li>
             <!--end::Menu Footer-->
         </ul>

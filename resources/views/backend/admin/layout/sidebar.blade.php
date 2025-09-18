@@ -30,7 +30,7 @@
                 </li>
 
                 {{-- dropdown menu --}}
-                {{-- <li class="nav-item menu-open">
+                <li class="nav-item">
                     <a href="#" class="nav-link active">
                         <i class="nav-icon bi bi-speedometer"></i>
                         <p>
@@ -58,7 +58,7 @@
                             </a>
                         </li>
                     </ul>
-                </li> --}}
+                </li>
             </ul>
             <!--end::Sidebar Menu-->
         </nav>
